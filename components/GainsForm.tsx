@@ -117,7 +117,7 @@ export default function GainsForm({ data, onChange }: GainsFormProps) {
                         <input
                             type="text"
                             className="input-field"
-                            placeholder="VD: Lê Duy Sáng"
+                            placeholder="VD: NGUYỄN QUANG A"
                             value={data.companyInfo.memberName}
                             onChange={(e) => updateField('companyInfo', 'memberName', e.target.value)}
                         />
@@ -128,7 +128,7 @@ export default function GainsForm({ data, onChange }: GainsFormProps) {
                         <input
                             type="text"
                             className="input-field"
-                            placeholder="VD: Công ty TNHH Giáo dục Upper Education"
+                            placeholder="VD: CÔNG TY TNHH ABC"
                             value={data.companyInfo.name}
                             onChange={(e) => updateField('companyInfo', 'name', e.target.value)}
                         />
@@ -140,7 +140,7 @@ export default function GainsForm({ data, onChange }: GainsFormProps) {
                             <input
                                 type="text"
                                 className="input-field"
-                                placeholder="VD: 0377 889 668"
+                                placeholder="VD: 097xxxx"
                                 value={data.companyInfo.phone}
                                 onChange={(e) => updateField('companyInfo', 'phone', e.target.value)}
                             />
@@ -151,7 +151,7 @@ export default function GainsForm({ data, onChange }: GainsFormProps) {
                             <input
                                 type="text"
                                 className="input-field"
-                                placeholder="VD: 196 Lê Lai, Phường Bến Thành"
+                                placeholder="VD: 123 Đường ABC, Quận XYZ"
                                 value={data.companyInfo.address}
                                 onChange={(e) => updateField('companyInfo', 'address', e.target.value)}
                             />
