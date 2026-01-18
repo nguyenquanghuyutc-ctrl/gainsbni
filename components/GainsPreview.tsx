@@ -43,7 +43,7 @@ export default function GainsPreview({ data }: GainsPreviewProps) {
             </div>
 
             {/* Main Content - Two columns */}
-            <div className="grid grid-cols-2 gap-6 p-8" style={{ minHeight: '950px' }}>
+            <div className="p-8" style={{ minHeight: '950px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px' }}>
                 {/* Left Column */}
                 <div className="space-y-6">
                     {/* Company Info */}
